@@ -1,0 +1,38 @@
+body
+{
+    background: #2C2559;
+    color: #2639A6;
+}
+div
+{
+    margin : 50px;
+    padding : 30px;
+}
+form
+{
+    padding: 20px;
+    background: #6960A6;
+    border : 3px solid #F0F0F2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 5px 5px rgb(23, 17, 53);
+}
+input, select
+{
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #2C2559;
+}
+#nb1, #nb2
+{
+    width: 75px;
+}
+#resultatMessage
+{
+    color: #F0F0F2;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 10px 5px 5px rgb(23, 17, 53);
+}

@@ -1,0 +1,5 @@
+com\dmcdev\testing\LoggingExtension.class
+com\dmcdev\testing\CalculatorTest.class
+com\dmcdev\testing\ConversionCalculatorTest$TemperatureTests.class
+com\dmcdev\testing\ConversionCalculatorTest.class
+com\dmcdev\testing\CalculatorAssertJTest.class

@@ -1,0 +1,22 @@
+body
+{
+    font-family: "Comic Sans MS";
+    background: #3c3f41;
+}
+li
+{
+    margin-right: 30px;
+}
+nav
+{
+    margin-bottom: 30px;
+}
+#navTitre
+{
+    font-size: 1.8em;
+    color: white;
+}
+.card-header
+{
+    color : white;
+}

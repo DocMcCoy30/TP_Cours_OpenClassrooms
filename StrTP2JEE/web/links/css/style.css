@@ -1,0 +1,78 @@
+body
+{
+    background: #2C2559;
+    color: white;
+    font-family: Georgia, serif;
+}
+nav
+{
+    height: 100px;
+    background: #2C2559;
+    margin-bottom: 15px;
+}
+#navTitre
+{
+    font-size: 1.8rem;
+    color: white;
+}
+#formulaire
+{
+    margin-bottom: 10px;
+}
+card
+{
+    border: none;
+}
+.card-header
+{
+    background: #6960A6;
+    color: white;
+}
+.card-body
+{
+    background: #2C2559;
+}
+thead, tbody
+{
+    color: white;
+
+}
+#index
+{
+    margin-top: 150px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+#div-strFile
+{
+    margin-bottom: 30px;
+}
+#div-exporter
+{
+    margin-bottom: 30px;
+}
+form
+{
+    position: relative;
+}
+#boutons
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#erreur
+{
+    color: #ff2327;
+    font-size: large;
+    font-weight: bold;
+}
+#message
+{
+    color: white;
+    font-weight: bold;
+}
