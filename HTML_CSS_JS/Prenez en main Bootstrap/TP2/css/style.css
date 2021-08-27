@@ -1,0 +1,26 @@
+ /* Styles de base */
+ body {
+    background: url('../assets/img/fond.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Images */
+  img {
+    width: 100%;
+  }
+ #contenu {
+   opacity: 0.7;
+ }
+ footer {
+   padding: 3%;
+ }
+ .jumbotron {
+  margin: 0px 40px !important;
+  background: rgba(238, 238, 238, 0.5);
+}
+
+ 

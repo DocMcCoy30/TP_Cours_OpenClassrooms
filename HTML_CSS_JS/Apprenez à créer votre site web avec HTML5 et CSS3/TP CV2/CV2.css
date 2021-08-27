@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'noto_sansbold';
+    src: url('Noto_Sans/notosans-bold-webfont.woff2') format('woff2'),
+         url('Noto_Sans/notosans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+    background: url(img/photo_profil.png) scroll no-repeat top right border-box, url(img/fond_de_page.jfif) fixed;
+    font-family: 'noto_sansbold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial sans-serif';
+}
+h1
+{
+    text-decoration: underline;
+}
+h1, h4
+{
+    text-align: center;
+}
+h2
+{
+    border: 2px black solid;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px black;
+}
+a{
+    color: blue;
+}
+a:hover
+{
+    color: rgb(189, 27, 189);
+}
+

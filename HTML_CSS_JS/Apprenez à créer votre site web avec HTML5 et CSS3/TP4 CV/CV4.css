@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('font/alex-brush/AlexBrush-Regular.ttf') format('ttf'), 
+         url('font/alex-brush/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('font/alex-brush/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#bloc_page
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'alex_brushregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    position: relative;
+    width: 100%;
+    background: url(img/fond_de_page.jfif), no-repeat fixed;
+    list-style-type: none;
+}
+#lisere
+{
+    flex: 0.4;
+    background: rgba(121, 171, 190, 0.39);
+}
+
+#cv
+{
+    flex: 3;
+    margin-left: 2%;
+}
+header
+{
+    text-align: center;
+    height: 125px;
+    /*border-bottom: 1px rgb(121, 171, 190) solid;*/
+}
+header img
+{
+    float: right;
+    margin-top: 0;
+    border: 1px rgb(121, 171, 190) solid;
+}
+header h1
+{
+    font-size: 2.6em;
+}
+header h4
+{
+    font-size: 1.3em;
+}
+article
+{
+    display: flex;
+}
+article h2
+{
+    text-align: center;
+}
+footer
+{
+    /*border-top: 1px rgb(121, 171, 190) solid;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%
+   
+}
+.logo_linkedin
+{
+       vertical-align: middle;
+}
+.logo_mail
+{
+    vertical-align: middle;
+    
+}
+.logo_telephone
+{
+    vertical-align: middle;
+    
+}
+.logo_adresse
+{
+    vertical-align: middle;
+    
+}
+a
+{
+    color: rgb(15, 139, 189);
+    text-decoration: none;
+}
+a:hover
+{
+    border-bottom: 2px solid rgb(15, 139, 189);
+    font-size: 1.1em;
+    
+}
+@media screen and (max-width: 1024px)
+{
+        #lisere
+        {
+            flex: 0;
+        }
+        article
+        {
+            flex-direction: column;
+        }
+}
